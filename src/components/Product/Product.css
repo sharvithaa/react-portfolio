@@ -1,0 +1,88 @@
+#project {
+  height: auto;
+  margin-top:50px; 
+  margin-bottom: 10px;
+}
+.portfolio-container {
+  width: min-content;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  padding-left: 10px;
+  margin-top: -300px;
+}
+
+.portfolio-container > article:hover {
+  background: transparent;
+  border-color: #FCC419;
+  cursor: default;
+}
+
+.portfolio-item {
+  background:#fde9ae;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid #ffe28b;
+}
+
+.portfolio-item-img {
+  width: 370px;
+  height: 220px;
+}
+
+.portfolio-item-img > img {
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.portfolio-item > h3 {
+  margin-bottom: 2rem;
+}
+.portfolio-item-cta {
+  display: flex;
+  gap: 1rem;
+}
+.btn{
+  color: white;
+  background:#FCC419;
+  text-align: center;
+  margin: 5px;
+  padding:10px;
+  text-decoration: none;
+  border-radius: 25px;
+ 
+}
+
+
+
+
+/* ======================= MEDIA QURIES (MEDIUM DEVISES) ========================== */
+
+@media screen and (min-width:450px) and (max-width: 1200px) {
+
+  .portfolio-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    height: auto;
+  }
+  .portfolio-item-img {
+    width: 370px;
+    height: 220px;
+  }
+}
+
+/* ======================= MEDIA QURIES (SMALL DEVISES) ========================== */
+
+@media screen and (max-width: 600px) {
+  .portfolio-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .portfolio-item-img {
+    width: 370px;
+  height: 220px;
+  }
+}

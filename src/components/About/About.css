@@ -1,0 +1,101 @@
+:root {
+  --gr: #FCC419;
+}
+
+.a{
+    display: flex;
+    align-items: center;
+}
+.a-center{
+   
+    height: 400px;
+}
+.a-title{
+    font-weight: 600;
+    font-size: 35px;
+    text-align: center;
+}
+.a-sub{
+    margin: 20px 0px;
+    text-align: center;
+    font-size: 20px;
+}
+.a-desc{
+    font-weight: 300;
+    width: 50%;
+    padding-left: 350px;
+    text-align: center;
+  }
+  
+.resBtn {
+    margin: 0 auto; /* Center horizontally */
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+.resBtn div{
+    height: 30px;
+    background-color:#FCC419;
+    color: white;
+    border-radius: 10px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.download i{
+    padding-left: 10px;
+  }
+.a-right a div{
+    transition: all 0.2s;
+  }
+.a-right a  div:hover {
+    background-color: green;
+  }
+.a a{
+    text-decoration: none;
+  }
+  
+  @media screen and (max-width: 900px){
+    .resBtn{
+      margin-left: 0px;
+    }
+    .a-left{
+      display: none;
+    }
+    .a{
+      height: 100%;
+      text-align: center;
+    }
+    .a-right{
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+    .a-desc{
+      width: 100%;
+      padding-left: 5px;
+    }
+    .resBtn{
+      margin-top: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 710px){
+    .a{
+      margin-top: 30%;
+    }
+  }
+  
+  @media screen and (max-width: 550px){
+    .a{
+      margin-top: 20%;
+    }
+  }
+  
+  @media screen and (max-width: 450px){
+    .a{
+      margin-top: 40%;
+    }
+  }

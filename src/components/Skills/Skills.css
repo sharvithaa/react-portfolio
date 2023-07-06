@@ -1,0 +1,76 @@
+.section{
+    width: 95%;
+    margin-top: -60px;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+.skill-main{
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap:50px;
+    grid-row-gap: 20px;
+    margin-top: -280px;
+}
+.skill-main .skill-bar .info{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    z-index: -1;
+}
+.skill-bar .bar{
+    width: 95%;
+    height: 10px;
+    position: relative;
+    background-color:gainsboro;
+    border-radius: 25px;
+    margin-top: 5px;
+    z-index: -1;
+}
+.skill-bar .bar span{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background-color:#FCC419;;
+}
+.skill-bar .bar .html{
+    width: 90%;
+    animation: html 3s;
+}
+
+.skill-bar .bar .css{
+    width: 70%;
+    animation: css 3s;
+}
+.skill-bar .bar .js{
+    width: 70%;
+    animation: js 3s;
+}
+.skill-bar .bar .bs{
+    width: 50%;
+    animation: bs 3s;
+}
+.skill-bar .bar .react{
+    width: 75%;
+    animation: react 3s;
+}
+.skill-bar .bar .node{
+    width: 60%;
+    animation: node 3s;
+}
+.skill-bar .bar .java{
+    width: 50%;
+    animation: java 3s;
+}
+.skill-bar .bar .django{
+    width: 60%;
+    animation: django 3s;
+}
+.skill-bar .bar .mongodb{
+    width: 60%;
+    animation: mongodb 3s;
+}
+.skill-bar .bar .git{
+    width: 85%;
+    animation: git 3s;
+}
