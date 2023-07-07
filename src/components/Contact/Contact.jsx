@@ -30,15 +30,15 @@ return(
     <h1 style={{textAlign:'center'}}>Get In Touch</h1>
     <div className='contact_container grid'>
         <div className='contact_info'>
-            <h2 className='contact_title'>Let's talk about your project! Send me an Email </h2>
+            <h1 className='contact_title'>Let's talk about your project! Send me an Email </h1>
             <div className='contact_item'>
-                <img src={phone} className='c_icon'/>+91 9894149096
+                <img src={phone} alt="" className='c_icon'/>+91 9894149096
             </div>
             <div className='contact_item'>
-                <img src={email} className='c_icon'/>dharmalingamrandd@gmail.com
+                <img src={email}alt="" className='c_icon'/>dharmalingamrandd@gmail.com
             </div>
             <div className='contact_item'>
-                <img src={address} className='c_icon'/>RVR Nagar,Thuraiyur Main Road,Musiri,Trichy-621211
+                <img src={address} alt="" className='c_icon'/>RVR Nagar,Thuraiyur Main Road,Musiri,Trichy-621211
             </div>
 
         </div>

@@ -22,9 +22,9 @@ const Start=()=>
                     <h1 className='f-name'>Sharvithaa</h1>
                     <h2 className='f-desc'>I'm a{text}</h2>
                 <div className="i-icon">
-                    <a href=""><img src={github} height={'40px'} width={'40px'}></img></a>
-                    <a href="" ><img src={linkedin} height={'40px'} width={'40px'}></img></a>
-                    <a href=""><img src={instagram} height={'40px'} width={'40px'}></img></a>
+                    <a href="https://github.com/sharvithaa" target='_blank'><img src={github} height={'40px'} width={'40px'} alt=''></img></a>
+                    <a href="https://www.linkedin.com/in/sharvithaa-dharmalingam-87b53a24b/" target='_blank' ><img src={linkedin} height={'40px'} width={'40px'} alt=''></img></a>
+                    <a href="https://www.instagram.com/sharvithaa_20203/" target='_blank'><img src={instagram} height={'40px'} width={'40px'} alt=''></img></a>
                 </div>
             </div>
             </div>
