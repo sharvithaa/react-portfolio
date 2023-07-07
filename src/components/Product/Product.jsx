@@ -38,8 +38,8 @@ const Product=()=>{
                     </div>
                     <h3>Portfolio</h3>
                     <div className='portfolio-item-cta'>
-                        <a href='https://github.com/sharvithaa/pagereplacement.github.io' className='btn' target='_blank'>GitHub</a>
-                        <a href='https://pagereplacementsimulator.netlify.app/'className='btn btn-primary' target='_blank'>Live Demo</a>
+                        <a href='https://github.com/sharvithaa/react-portfolio' className='btn' target='_blank'>GitHub</a>
+                        <a href='https://sharvithaa.netlify.app/'className='btn btn-primary' target='_blank'>Live Demo</a>
                     </div>
                 </article>
             </div>
