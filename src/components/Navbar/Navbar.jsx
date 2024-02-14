@@ -17,6 +17,7 @@ const Navbar = () => {
               <li className="nav-links"><a onClick={handleClick} href="#intro">Home</a></li>
               <li className="nav-links"><a onClick={handleClick} href="#about">About</a></li>
               <li className="nav-links"><a onClick={handleClick} href="#project">Portfolio</a></li>
+              <li className="nav-links"><a onClick={handleClick} href="#blogs">Blogs</a></li>
               <li className="nav-links"><a onClick={handleClick} href="#contact">Contact</a></li>
             </ul>
           </div>

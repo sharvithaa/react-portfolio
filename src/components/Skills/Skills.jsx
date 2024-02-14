@@ -40,16 +40,6 @@ const Skills=()=>{
 
                 <div className='skill-bar'>
                     <div className='info'>
-                            <p>Bootstrap</p>
-                            <p>50%</p>
-                    </div>
-                    <div className='bar'>
-                            <span className='bs'></span>
-                    </div>
-                </div>
-
-                <div className='skill-bar'>
-                    <div className='info'>
                             <p>React JS</p>
                             <p>75%</p>
                     </div>
@@ -70,8 +60,18 @@ const Skills=()=>{
 
             <div className='skill-bar'>
                 <div className='info'>
+                    <p>C</p>
+                    <p>70%</p>
+                </div>
+                <div className='bar'>
+                    <span className='c'></span>
+                </div>
+            </div>
+
+            <div className='skill-bar'>
+                <div className='info'>
                     <p>Java</p>
-                    <p>50%</p>
+                    <p>80%</p>
                 </div>
                 <div className='bar'>
                     <span className='java'></span>
@@ -107,6 +107,17 @@ const Skills=()=>{
                     <span className='git'></span>
                 </div>
             </div>
+
+            
+            <div className='skill-bar'>
+                    <div className='info'>
+                            <p>Machine Learning Algorithms</p>
+                            <p>85%</p>
+                    </div>
+                    <div className='bar'>
+                            <span className='ml'></span>
+                    </div>
+                </div>
         </ div>
     </div>
     )

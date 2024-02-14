@@ -74,3 +74,37 @@
     width: 85%;
     animation: git 3s;
 }
+.skill-bar .bar .c{
+    width: 70%;
+    animation: c 3s;
+}
+
+.skill-bar .bar .ml{
+    width: 85%;
+    animation: ml 3s;
+}
+
+/* ======================= MEDIA QURIES (MEDIUM DEVISES) ========================== */
+
+@media screen and (min-width:450px) and (max-width: 1200px) {
+
+    .skill-main {
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      height: auto;
+    }
+    
+  }
+  
+  /* ======================= MEDIA QURIES (SMALL DEVISES) ========================== */
+  
+  @media screen and (max-width: 600px) {
+    .section{
+        margin-left: 1px;
+        padding-left: 10px;
+    }
+    .skill-main{
+      grid-template-columns:repeat(1,1fr);
+      
+    }
+  }

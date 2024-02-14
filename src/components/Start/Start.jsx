@@ -5,13 +5,13 @@ import Vector2 from '../../images/Ellipse 2.png';
 import girl from '../../images/girl.67be86966e6674712c00.png';
 import github from '../../images/github.11a2cf2e7e3371c6861a.png';
 import linkedin from '../../images/linkedin.d75bef221fef4eb177e5.png';
-import instagram from '../../images/instagram.9a59f473fe91f111e8d7.png';
+import medium from '../../images/medium.png';
 
 
 const Start=()=>
 {
     const [text] = useTypewriter({
-        words: [' Web Developer',' Freelancer',],
+        words: [' Web Developer',' Machine Learning Enthusiast',' Blogger'],
         loop: 0
       })
     return(
@@ -24,7 +24,7 @@ const Start=()=>
                 <div className="i-icon">
                     <a href="https://github.com/sharvithaa" target='_blank'><img src={github} height={'40px'} width={'40px'} alt=''></img></a>
                     <a href="https://www.linkedin.com/in/sharvithaa-dharmalingam-87b53a24b/" target='_blank' ><img src={linkedin} height={'40px'} width={'40px'} alt=''></img></a>
-                    <a href="https://www.instagram.com/sharvithaa_20203/" target='_blank'><img src={instagram} height={'40px'} width={'40px'} alt=''></img></a>
+                    <a href="https://medium.com/@dharmalingamrandd" target='_blank'><img src={medium} height={'40px'} width={'40px'} alt=''></img></a>
                 </div>
             </div>
             </div>

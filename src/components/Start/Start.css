@@ -83,13 +83,22 @@
 @media screen and (max-width: 950px){
   .first{
     flex-direction: column;
-    padding-top: 100px;
-    padding-left: 70px;
+    padding-top: 30px;
+    padding-left:1px;
   }
   .i-right{
-    margin-left: 100px;
+    margin-left: 250px;
     margin-top: 50px;
   }
- 
+  .i-right>:nth-child(1){
+    transform: scale(0.9);    
+    left: -30%;
+    top:-9%
+  }
+  .i-right>:nth-child(3){
+    transform: scale(0.9);
+    left: -80%;
+    top:10%;
+  }
 }
 

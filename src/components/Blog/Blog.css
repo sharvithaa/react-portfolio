@@ -1,0 +1,91 @@
+.blog-container {
+    width: min-content;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding-left: 10px;
+    margin-top: -280px;
+  }
+.blog-item {
+    background:#eab5fd;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 1px solid #d053fc;
+  }
+
+  .blog-item-img {
+    width: 370px;
+    height: 200px;
+  }
+  
+  .blog-item-img > img {
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+
+.b-title
+{
+    text-align: center;
+}
+.blogbtn
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#d053fc;
+  color: white;
+  border-radius: 8px;
+  height: 30px; 
+  width: 70px;
+  text-decoration: none;
+} 
+
+.blog-item-cta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8px;
+    
+}
+
+.blog-item-cta div:hover
+{
+  background-color: #eab5fd;
+}
+
+.blog-container article:hover{
+  cursor: default;
+  background-color: transparent;
+}
+
+
+/* ======================= MEDIA QURIES (MEDIUM DEVISES) ========================== */
+
+@media screen and (min-width:450px) and (max-width: 1200px) {
+
+  .blog-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    height: auto;
+  }
+  .blog-item-img {
+    width: 260px;
+    height: 200px;
+  }
+}
+
+/* ======================= MEDIA QURIES (SMALL DEVISES) ========================== */
+
+@media screen and (max-width: 600px) {
+  .blog-container {
+    grid-template-columns:repeat(1,1fr);
+    gap: 1rem;
+  }
+  .blog-item-img {
+    width: 300px;
+  height: 200px;
+  }
+}

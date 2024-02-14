@@ -5,13 +5,14 @@
     padding-bottom: 10px;
 }
 .copy{
-    margin-top: 30px;
-    padding-left: 450px;
+  display: flex;
+  justify-content: center;
 }
 @media screen and (max-width:800px){
     .footer{
         padding-top: 10px;
         padding-bottom: 10px;
+        width: auto;
       }
       .copy{
         padding-left: 50px;

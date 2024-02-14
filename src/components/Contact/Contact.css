@@ -34,7 +34,7 @@ form{
  border-color: #fde9ae;
  outline: none;
  width: 70%;
- box-shadow: 1px 3px #fde9ae;
+ box-shadow: 1px 1px #fde9ae;
 }
 .btn{
   outline: none;
@@ -43,6 +43,10 @@ form{
   height: 55%;
   border-radius: 10px;
   text-align: center;
+}
+.btn:hover
+{
+  background-color: #debf62;
 }
 @media screen and (max-width:1065px){
   .contact_container{
@@ -53,6 +57,7 @@ form{
   }
   .btn{
     height: 60%;
+    width: 50%;
   }
   .contact_form-input{
     height: 110%;

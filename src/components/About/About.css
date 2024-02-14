@@ -84,18 +84,18 @@
   
   @media screen and (max-width: 710px){
     .a{
-      margin-top: 30%;
+      margin-top: 200px;
     }
   }
   
   @media screen and (max-width: 550px){
     .a{
-      margin-top: 20%;
+      margin-top: 100px;
     }
   }
   
   @media screen and (max-width: 450px){
     .a{
-      margin-top: 40%;
+      margin-top: 220px;
     }
   }
